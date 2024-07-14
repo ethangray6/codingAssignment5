@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col"] {
+    float: left;
+  /* padding: 15px; */
+}
+
+.row::after {
+    content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background: #4476D4;
+  font-family: "Arial", sans-serif;
+  margin: 10px;
+}
+
+h1 {
+  color: #000;
+  font-family: "Impact", fantasy;
+  font-style: strong;
+  font-size:60px;
+}
+
+h2 {
+  color: #0B5506;
+  font-family: "Impact", fantasy;
+  font-size: 30px;
+}
+
+p {
+  color: #0B5506;
+}
+
+a {
+  color: #0B5506;
+}
+
+figcaption {
+  color: #000;
+}
+
+h3 {
+  color: #0B5506;
+  font-family: "Impact", fantasy;
+  font-size: 24px;
+}
+
+.col {
+  color: #ffffff;
+  font-size: 14px;
+  
+}
+
+#equipment {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+#conv {
+  margin-top: 250px;
+}
+
+
+
